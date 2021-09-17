@@ -1,4 +1,4 @@
-# 查询API版本号详情<a name="ZH-CN_TOPIC_0170553615"></a>
+# 查询API版本号详情<a name="zh-cn_topic_0133313257"></a>
 
 ## 功能介绍<a name="section112333415306"></a>
 
@@ -124,7 +124,7 @@ GET /\{api\_version\}
     </td>
     <td class="cellrowborder" valign="top" width="22.077792220777923%" headers="mcps1.2.4.1.2 "><p id="p1738912361308"><a name="p1738912361308"></a><a name="p1738912361308"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="59.23407659234077%" headers="mcps1.2.4.1.3 "><p id="p638963653019"><a name="p638963653019"></a><a name="p638963653019"></a>若该版本API 支持微版本，则返回支持的最早微版本号， 如果不支持微版本，则返回空。</p>
+    <td class="cellrowborder" valign="top" width="59.23407659234077%" headers="mcps1.2.4.1.3 "><p id="p638963653019"><a name="p638963653019"></a><a name="p638963653019"></a>若该版本API支持微版本，则返回支持的最早微版本号，如果不支持微版本，则返回空。</p>
     </td>
     </tr>
     </tbody>
@@ -187,5 +187,5 @@ GET /\{api\_version\}
 
 ## 错误码<a name="section18604165622519"></a>
 
-请参考[错误码说明](错误码说明.md)。
+请参考[错误码](错误码.md)。
 

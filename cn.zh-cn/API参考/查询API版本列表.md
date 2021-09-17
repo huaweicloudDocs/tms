@@ -1,4 +1,4 @@
-# 查询API版本列表<a name="ZH-CN_TOPIC_0170553657"></a>
+# 查询API版本列表<a name="zh-cn_topic_0133313256"></a>
 
 ## 功能介绍<a name="section18687215132319"></a>
 
@@ -16,9 +16,9 @@ GET /
 GET https://{TMS的Endpoint}/
 ```
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->您可以从[地区和终端节点](https://developer.huaweicloud.com/endpoint)中查询TMS服务的终端节点。  
->调用TMS服务的API接口都需要调用Domain级Token，详情请参见[获取Domain级Token](获取Domain级Token.md)。  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>您可以从[地区和终端节点](https://developer.huaweicloud.com/endpoint)中查询TMS服务的终端节点。
+>调用TMS服务的API接口都需要调用Domain级Token，详情请参见[获取Domain级Token](获取Domain级Token.md)。
 
 ## 响应消息<a name="section11732141562320"></a>
 
@@ -39,7 +39,7 @@ GET https://{TMS的Endpoint}/
     </td>
     <td class="cellrowborder" valign="top" width="23.44765523447655%" headers="mcps1.2.4.1.2 "><p id="p28141622314"><a name="p28141622314"></a><a name="p28141622314"></a>Array</p>
     </td>
-    <td class="cellrowborder" valign="top" width="56.7043295670433%" headers="mcps1.2.4.1.3 "><p id="p4873152115617"><a name="p4873152115617"></a><a name="p4873152115617"></a>描述version 相关对象的列表。</p>
+    <td class="cellrowborder" valign="top" width="56.7043295670433%" headers="mcps1.2.4.1.3 "><p id="p4873152115617"><a name="p4873152115617"></a><a name="p4873152115617"></a>描述version相关对象的列表。</p>
     <p id="p68101682312"><a name="p68101682312"></a><a name="p68101682312"></a>详细参数请参见<a href="#table374991515234">表2</a>。</p>
     </td>
     </tr>
@@ -85,7 +85,7 @@ GET https://{TMS的Endpoint}/
     </td>
     <td class="cellrowborder" valign="top" width="21.33%" headers="mcps1.2.4.1.2 "><p id="p1195169236"><a name="p1195169236"></a><a name="p1195169236"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="59.8%" headers="mcps1.2.4.1.3 "><p id="p4971617239"><a name="p4971617239"></a><a name="p4971617239"></a>版本状态，为如下3种：</p>
+    <td class="cellrowborder" valign="top" width="59.8%" headers="mcps1.2.4.1.3 "><p id="p4971617239"><a name="p4971617239"></a><a name="p4971617239"></a>版本状态，包含以下3种：</p>
     <a name="ul101632012202419"></a><a name="ul101632012202419"></a><ul id="ul101632012202419"><li>CURRENT：表示该版本为主推版本。</li><li>SUPPORTED：表示为老版本，但是现在还继续支持。</li><li>DEPRECATED：表示为废弃版本，存在后续删除的可能。</li></ul>
     </td>
     </tr>
@@ -100,7 +100,7 @@ GET https://{TMS的Endpoint}/
     </td>
     <td class="cellrowborder" valign="top" width="21.33%" headers="mcps1.2.4.1.2 "><p id="p189111692310"><a name="p189111692310"></a><a name="p189111692310"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="59.8%" headers="mcps1.2.4.1.3 "><p id="p1595167238"><a name="p1595167238"></a><a name="p1595167238"></a>若该版本API 支持微版本，则返回支持的最早微版本号， 如果不支持微版本，则返回空。</p>
+    <td class="cellrowborder" valign="top" width="59.8%" headers="mcps1.2.4.1.3 "><p id="p1595167238"><a name="p1595167238"></a><a name="p1595167238"></a>若该版本API支持微版本，则返回支持的最早微版本号，如果不支持微版本，则返回空。</p>
     </td>
     </tr>
     </tbody>
@@ -166,5 +166,5 @@ GET https://{TMS的Endpoint}/
 
 ## 错误码<a name="section9414853182510"></a>
 
-请参考[错误码说明](错误码说明.md)。
+请参考[错误码](错误码.md)。
 
