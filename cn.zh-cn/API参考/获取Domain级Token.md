@@ -1,4 +1,4 @@
-# 获取Domain级Token<a name="ZH-CN_TOPIC_0186103096"></a>
+# 获取Domain级Token<a name="zh-cn_topic_0186103096"></a>
 
 ```
 POST https://iam.cn-north-1.myhuaweicloud.com/v3/auth/tokens
